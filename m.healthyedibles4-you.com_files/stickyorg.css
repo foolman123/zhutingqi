@@ -1,0 +1,99 @@
+
+/*div que contiene al sticky ad completo*/
+
+#container-stickyad{
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    padding: 10px;
+}
+
+#container-stickyad.hide {
+    display:none;
+}
+
+#container-stickyad.show {
+    display:block;
+}
+
+@media (min-width: 576px){
+    .d-sm-none {
+        display: none !important;
+    }
+}
+
+
+
+/*Related Title*/
+
+
+.related {
+	font-size: 19px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+
+/*columnas del sticky ad*/
+
+.stickyad{
+    margin-top: 10px;
+	display: inline-flex;
+}
+
+@media (max-width: 540px){
+    .stickyad{
+        display: inline-block;
+    }
+}
+
+
+/*contenido de cada columna*/
+
+@media (max-width: 600px){
+    .widget-stickyad{
+        max-width: 100%;
+    }
+}
+
+.widget-stickyad{
+    float: left;
+    max-width: 250px;
+}
+
+
+/*Texto del sticky ad*/
+
+.stickyad .widget-stickyad p {
+    text-align: left;
+    font-size: 17px;
+    margin-top: 0px;
+}
+
+.widget-stickyad p {
+    text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        color: #00a4e5;
+        margin-top: 15px;
+        line-height: 24px;
+    }
+
+
+.stickyad .widget-stickyad a {
+    text-decoration: none;
+}
+
+/*Imagen del Sticky ad*/
+
+.widget-stickyad .img-stickyad {
+    max-width: 100%;
+    height: auto;
+}
+    
+.widget-stickyad img {
+    max-width: 100%;
+    height: auto;
+}
